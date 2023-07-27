@@ -1,0 +1,140 @@
+body{
+    /* background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRZcIAt1BUXsptkPMpugXSNJMmzJTpqK_zpbQ&usqp=CAU'); */
+    background-image: url('https://pokewalls.files.wordpress.com/2020/05/873frosmoth1920x1080.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+}
+.welcome_page {
+    font-family: 'Dancing Script', cursive;
+    font-weight: bolder;
+    font-size: xx-large;
+    background:linear-gradient(to right, #f0e330, #1bdcfa);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+    font-size: 140px;
+}
+.start_button{
+    display: flex;
+    justify-content: center;
+    gap:20px;
+    margin-top: 5px;
+}
+.button_des{
+    display: flex;
+    justify-content: center;
+    margin:0px;
+    gap:180px;
+    margin-top: 15px;
+}
+.previous{
+    border-radius: 20px;
+    font-size: 55px;
+    background:linear-gradient(to right, #02e9fa, #027afa);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;   
+}
+.previous:hover{
+    cursor:pointer;
+}
+.start{
+    border-radius: 20px;
+    font-size: 55px;
+    background:linear-gradient(to right, #86fa02, #050505);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    font-family: 'Dancing Script', cursive;
+    font-weight: bolder;
+    font-size: xx-large;
+    margin-top: -5%;
+    font-size: 70px;
+}
+.start:hover{
+    cursor:pointer;
+}
+.next{
+    border-radius: 20px;
+    font-size: 55px;
+    background:linear-gradient(to right, #02e9fa, #027afa);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+}
+.next:hover{
+    cursor:pointer;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+}
+
+.pokemon_conatiner {
+    background-image: radial-gradient(#f0e330, #1bdcfa);
+    background-image: radial-gradient(circle at top right, #f0e330, #1bdcfa);
+
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    border-radius: 30px;
+    padding: 10px;
+    min-width: 600px;
+    font-family: 'Roboto', sans-serif;
+    margin-right: 10px;
+    max-width: 550px;
+    /* max-height:200px; */
+
+}
+
+.pokemon_conatiner:hover {
+    transform: scale(1.1);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.pokemon_img {
+    height: 220px
+}
+
+
+
+.pokemon_content {
+    margin: 10px;
+    align-items: center;
+}
+
+.pokemon_name {
+    margin: 10px;
+    font-size: 30px;
+    text-align: center;
+    background: linear-gradient(to right, #cc181b, #3f3cd6);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+
+}
+
+.pokemon_abilities {
+    margin: 10px;
+    font-size: 22px;
+}
+
+.pokemon_moves {
+    margin: 10px;
+    font-size: 22px;
+}
+
+.pokemon_weight {
+    margin: 10px;
+    font-size: 22px;
+}
+
+.pageination {
+    margin-right: auto;
+}
