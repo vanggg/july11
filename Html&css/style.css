@@ -1,0 +1,37 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter&family=Nunito:wght@400;500;700&family=Poppins:wght@400;500;600;700&display=swap");
+:root {
+    --primary-ff: "Poppins", sans-serif;
+    --primary-bg-color: #f5f6f6;
+    --logo-yellow: #f7df1e;
+    --blue-font-color: #73a7f1;
+    --orange-font-color: #fb9f77;
+    --primary-fs: 14px;
+}
+
+::-webkit-scrollbar {
+    background-color: #fff;
+    width: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: var(--logo-yellow);
+    border-radius: 10px;
+}
+
+body {
+    font-family: var(--primary-ff);
+    background-color: var(--primary-bg-color);
+    font-size: var(--primary-fs);
+}
+
+::selection {
+    background-color: var(--orange-font-color);
+}
+.img {
+    width: 14em;
+    height: 14em;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 60px;
+}
